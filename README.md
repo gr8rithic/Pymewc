@@ -16,7 +16,7 @@ _version:0.0.7.4 Alpha_
 
 - Read data from each pin of the microcontroller
 - Read data printed on the serial monitor window
-- Scoping Using Analog Pin 0
+- Scoping Using Analog Pin 0 with a accuracy of upto 100 Hz
 - Writing program to the microcontroller(Development Stage)
 - Sending data to the local cloud service / running a apache server(Development Stage)
 
