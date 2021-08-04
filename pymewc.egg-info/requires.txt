@@ -1,3 +1,6 @@
+matplotlib
+numpy
+pyfirmata2
 pyserial
 pyttsx3
 setuptools
