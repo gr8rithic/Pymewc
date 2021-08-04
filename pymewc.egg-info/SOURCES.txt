@@ -1,0 +1,8 @@
+README.md
+setup.py
+pymewc/__init__.py
+pymewc.egg-info/PKG-INFO
+pymewc.egg-info/SOURCES.txt
+pymewc.egg-info/dependency_links.txt
+pymewc.egg-info/requires.txt
+pymewc.egg-info/top_level.txt

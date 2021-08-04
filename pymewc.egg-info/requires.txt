@@ -1,0 +1,3 @@
+pyserial
+pyttsx3
+setuptools
