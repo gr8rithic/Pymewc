@@ -16,6 +16,7 @@ _version:0.0.7.4 Alpha_
 
 - Read data from each pin of the microcontroller
 - Read data printed on the serial monitor window
+- Scoping Using Analog Pin 0
 - Writing program to the microcontroller(Development Stage)
 - Sending data to the local cloud service / running a apache server(Development Stage)
 
@@ -74,6 +75,11 @@ pymewc.serial() # It asks for 2 parameters
 Want to contribute? Great!
 
 I will always welcome everyone contributers to contribute to the project which will be live soon. Hope it hits the market hard
+
+## Screenshot of the outputs
+Scoping Image output
+![The Scope Image](https://github.com/berndporr/pyFirmata2/blob/master/examples/screenshot_realtime_scope.png)
+
 
 ## License
 
