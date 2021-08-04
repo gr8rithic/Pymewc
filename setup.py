@@ -5,7 +5,7 @@ import os
 with open("README.md", "r") as fh:
     LONG_DESCRIPTION= fh.read()
 
-VERSION = '0.0.6'
+VERSION = '0.0.7.4'
 DESCRIPTION = 'Microcontroller and python interface'
 
 # Setting up
@@ -23,6 +23,9 @@ setup(
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "Intended Audience :: Developers",
+        "Intended Audience :: Education",
+        "Intended Audience :: Science/Research",
+        "Intended Audience :: Telecommunications Industry",
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
         "Operating System :: Unix",
