@@ -97,7 +97,7 @@ I will always welcome everyone contributers to contribute to the project which w
 
 ## Screenshot of the outputs
 
-![The Scope Image](https://drive.google.com/file/d/1lvTNXZHyLxfQouXhNIgKOn-JErofwV50/view?usp=sharing)
+![The Scope Image](https://github.com/gr8rithic/Pymewc/blob/master/realtime_scope.png)
 
 **The scope image output in the matplotlib output window (Scoping Image output)**
 
