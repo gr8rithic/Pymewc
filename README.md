@@ -80,7 +80,7 @@ I will always welcome everyone contributers to contribute to the project which w
 
 ![The Scope Image](https://github.com/berndporr/pyFirmata2/blob/master/examples/screenshot_realtime_scope.png)
 
-**The scope image output in the Output window Scoping Image output**
+**The scope image output in the matplotlib output window (Scoping Image output)**
 
 
 ## License
