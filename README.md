@@ -77,8 +77,10 @@ Want to contribute? Great!
 I will always welcome everyone contributers to contribute to the project which will be live soon. Hope it hits the market hard
 
 ## Screenshot of the outputs
-Scoping Image output
+
 ![The Scope Image](https://github.com/berndporr/pyFirmata2/blob/master/examples/screenshot_realtime_scope.png)
+
+The scope image output in the Output window Scoping Image output
 
 
 ## License
