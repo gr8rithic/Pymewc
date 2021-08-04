@@ -72,7 +72,7 @@ pymewc.serial()
 ```
 
 **For scoping using analog pin A0 (Currently default value is A0 other analog pin values are under development) :**
-```
+```sh
 import pymewc
 pymewc.scope()
 ```
