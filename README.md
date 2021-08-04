@@ -67,6 +67,13 @@ pymewc.serial() # It asks for 2 parameters
 # 2- The baud rate
 ```
 
+For scoping using analog pin A0 (Currently default value is A0 other values are under development) :
+```
+import pymewc
+pymewc.scope()
+```
+
+
  **Adding few other features which are digitalRead and digitalWrite functionalites(In development will be live soon)**
 
 
