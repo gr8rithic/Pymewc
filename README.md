@@ -1,10 +1,10 @@
 # Pymewc ( Python Microcontroller Interface)
 ## _Making your microcontroller connect with python_
 
-_version:0.0.7.4 Alpha_
+_version:0.0.8.1 Alpha_
 
- [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
- [![PyPI - License](https://img.shields.io/pypi/l/length)](https://raw.githubusercontent.com/Ratheshprabakar/length/master/LICENSE.md)
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+[![PyPI - License](https://img.shields.io/pypi/l/length)](https://raw.githubusercontent.com/Ratheshprabakar/length/master/LICENSE.md)
 ![PyPI](https://img.shields.io/pypi/v/pymewc)
 [![PyPI downloads](https://img.shields.io/pypi/dm/myfitbit.svg?style=flat)](https://pypi.org/project/pymewc/)
 [![Contributions](https://img.shields.io/badge/contributions-welcome-green.svg)](https://img.shields.io/badge/contributions-welcome-green.svg)
@@ -51,33 +51,45 @@ pip3 install pymewc
 
 ## How to use the package
 
-To check whether the python package is working and responding perfectly
+**To check whether the python package is working and responding perfectly**
 
 ```sh
 import pymewc
 pymewc.hello()
 ```
-
-For printing what the serial monitor prints:
+**To make the LED blink with time delay**
 
 ```sh
 import pymewc
-pymewc.serial() # It asks for 2 parameters
-# 1- The com-port('com4' or /dev/ttyACMO) depending on the os windows and *ux respectively
-# 2- The baud rate
+pymewc.blink()
 ```
 
-For scoping using analog pin A0 (Currently default value is A0 other values are under development) :
+**For printing what the serial monitor prints:**
+
+```sh
+import pymewc
+pymewc.serial() 
+```
+
+**For scoping using analog pin A0 (Currently default value is A0 other analog pin values are under development) :**
 ```
 import pymewc
 pymewc.scope()
 ```
 
 
- **Adding few other features which are digitalRead and digitalWrite functionalites(In development will be live soon)**
+ *Adding few other features which are digitalRead and digitalWrite functionalites(In development will be live soon)*
 
 
-## Development
+## Development Going on
+
+- Working on autodetect port name
+- Digital read and write functionalities for microcontrollers
+- Arduino scoping for other analog pins
+- Multiple scoping at the same time
+
+
+## Want to help??
 
 Want to contribute? Great!
 
@@ -95,3 +107,4 @@ I will always welcome everyone contributers to contribute to the project which w
 MIT
 
 **Free Software, Hell Yeah!**
+
