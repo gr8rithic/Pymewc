@@ -5,7 +5,7 @@ import os
 with open("README.md", "r") as fh:
     LONG_DESCRIPTION= fh.read()
 
-VERSION = '0.0.8.1'
+VERSION = '0.0.8.2'
 DESCRIPTION = 'Microcontroller and python interface'
 
 # Setting up
@@ -21,7 +21,7 @@ setup(
     install_requires=['pyserial', 'pyttsx3', 'setuptools', 'pyfirmata2', 'matplotlib', 'numpy'],
     keywords=['python', 'IoT', 'microcontroller', 'Arduino', 'Text-to-speech'],
     classifiers=[
-        "Development Status :: 2 - Pre-Alpha",
+        "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
         "Intended Audience :: Education",
         "Intended Audience :: Science/Research",
