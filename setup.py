@@ -5,7 +5,7 @@ import os
 with open("README.md", "r") as fh:
     LONG_DESCRIPTION= fh.read()
 
-VERSION = '0.0.9'
+VERSION = '0.0.9.1'
 DESCRIPTION = 'Microcontroller and python interface'
 
 # Setting up
