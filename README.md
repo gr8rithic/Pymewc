@@ -1,7 +1,7 @@
 # Pymewc ( Python Microcontroller Interface)
 ## _Making your microcontroller connect with python_
 
-_version:0.0.8.4 Alpha_
+_version:0.0.9 Alpha_
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 [![PyPI - License](https://img.shields.io/pypi/l/length)](https://raw.githubusercontent.com/Ratheshprabakar/length/master/LICENSE.md)
@@ -9,7 +9,7 @@ _version:0.0.8.4 Alpha_
 [![PyPI downloads](https://img.shields.io/pypi/dm/myfitbit.svg?style=flat)](https://pypi.org/project/pymewc/)
 [![Contributions](https://img.shields.io/badge/contributions-welcome-green.svg)](https://img.shields.io/badge/contributions-welcome-green.svg)
 
-- Pymewc is a new and innovative python library that can we used for connecting python with the microcontroller world.
+- Pymewc is a new and innovative python library that can be used for connecting python with the microcontroller world.
 - Pymewc is a lightweight package that aims simplicity yet performing complex tasks with ease.
 
 ## Features
