@@ -1,7 +1,7 @@
 # Pymewc ( Python Microcontroller Interface)
 ## _Making your microcontroller connect with python_
 
-_version:0.0.9.1 Alpha_
+_version:0.1.0 Beta_
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 [![PyPI - License](https://img.shields.io/pypi/l/length)](https://raw.githubusercontent.com/Ratheshprabakar/length/master/LICENSE.md)

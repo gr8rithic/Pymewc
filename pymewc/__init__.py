@@ -110,5 +110,5 @@ def blink():
 
 
 def hello():
-    print("Hello world, The package is properly installed version = 0.0.9.1")
+    print("Hello world, The package is properly installed version = 0.1.0")
 
