@@ -8,7 +8,7 @@ _version:0.1.3 Beta_
 [![PyPI - License](https://img.shields.io/pypi/l/length)](https://raw.githubusercontent.com/Ratheshprabakar/length/master/LICENSE.md)
 ![PyPI](https://img.shields.io/pypi/v/pymewc)
 ![PyPI](https://img.shields.io/pypi/pyversions/django.svg)
-[![PyPI downloads](https://img.shields.io/pypi/dm/pypistats.svg?style=flat)](https://pypi.org/project/pymewc/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/pymewc.svg?style=flat)](https://pypi.org/project/pymewc/)
 [![Contributions](https://img.shields.io/badge/contributions-welcome-green.svg)](https://img.shields.io/badge/contributions-welcome-green.svg)
 
 - Pymewc is a new and innovative python library that can be used for connecting python with the microcontroller world.
