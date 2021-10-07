@@ -22,7 +22,6 @@ print("Setting up the environment")
 time.sleep(3)
 
 
-
 def serial():
     com_port = input("Enter the com-port(Com4 or /dev/ttyACM0 on Windows and Unix based respectively)")
     baud_rate = int(input("Enter the baud rate as specified in the .ino file"))
@@ -34,13 +33,33 @@ def serial():
 
     while(1):
         try:
-            x = (ser.readline().strip())            
-            print("Check the usb port is mentioned correctly or usb is connected properly")
+            x = (ser.readline().strip())
             y = (x.decode('utf-8'))       
             print(y)                      
 
         except UnicodeDecodeError:
-            continue        
+            print("Check the usb port is mentioned correctly or usb is connected properly")
+            continue     
+
+def serial_discrete():
+    inp = int(input("Enter the no. of datas to be streamed"))
+    com_port = input("Enter the com-port(Com4 or /dev/ttyACM0 on Windows and Unix based respectively)")
+    baud_rate = int(input("Enter the baud rate as specified in the .ino file"))
+    import serial  
+    try:
+        ser = serial.Serial(com_port, baud_rate)  
+    except error:
+        print("Check the usb port is mentioned correctly or usb is connected properly")
+
+    for i in range(0,inp):
+        try:
+            x = (ser.readline().strip())
+            y = (x.decode('utf-8'))       
+            print(y)                      
+        
+        except UnicodeDecodeError:
+            print("Check the usb port is mentioned correctly or usb is connected properly")
+            continue         
 
 
 
@@ -110,5 +129,5 @@ def blink():
 
 
 def hello():
-    print("Hello world, The package is properly installed version = 0.1.3")
+    print("Hello world, The package is properly installed version = 0.1.6")
 

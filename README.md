@@ -2,7 +2,7 @@
 
 ## _Making your microcontroller connect with python_
 
-_version:0.1.3 Beta_
+_version:0.1.6 Beta_
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 [![PyPI - License](https://img.shields.io/pypi/l/length)](https://raw.githubusercontent.com/Ratheshprabakar/length/master/LICENSE.md)
@@ -78,6 +78,11 @@ pymewc.blink()
 ```sh
 import pymewc
 pymewc.serial() 
+```
+**For printing what the serial monitor prints without infinity loop condition specify no. of data to be displayed:**
+```sh
+import pymewc
+pymewc.serial_discrete() 
 ```
 
 **For scoping using analog pin A0 (Currently default value is A0 other analog pin values are under development) :**
