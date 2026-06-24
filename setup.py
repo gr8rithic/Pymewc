@@ -37,7 +37,7 @@ setup(
         "Bug Tracker": "https://github.com/gr8rithic/Pymewc/issues",
     },
     license="MIT",
-    packages=find_packages(),
+    packages=find_packages(exclude=["tests", "tests.*"]),
     python_requires=">=3.6",
     install_requires=["pyserial", "pyfirmata2", "matplotlib", "numpy"],
     keywords=["python", "IoT", "microcontroller", "Arduino", "serial"],
